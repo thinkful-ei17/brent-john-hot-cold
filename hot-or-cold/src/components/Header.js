@@ -12,7 +12,10 @@ export default function Header(props) {
   return (
     <div className="header">
       {props.text}
-      <HeaderLink text="WHAT?" />
+      <ul>
+        <HeaderLink text="WHAT?" />
+        <HeaderLink text="+ NEW GAME"/>
+      </ul>
     </div>
     
   );
